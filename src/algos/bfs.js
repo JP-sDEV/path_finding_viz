@@ -1,4 +1,4 @@
-export function dfs(grid, startNode, finishNode) {
+export function bfs(grid, startNode, finishNode) {
 
     const visitedNodesInOrder = []
 
@@ -6,7 +6,7 @@ export function dfs(grid, startNode, finishNode) {
     unvisitedNodes.push(startNode)
 
     while (unvisitedNodes.length) {
-        const node = unvisitedNodes.pop()
+        const node = unvisitedNodes.shift()
         
         if (node === finishNode) {
             return visitedNodesInOrder
