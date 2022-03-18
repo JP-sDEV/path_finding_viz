@@ -40,7 +40,7 @@ export const ToolBar = () => {
 
                 </div>
 
-                <a href="https://github.com/JP-sDEV/path_finding_viz">
+                <a href="https://github.com/JP-sDEV/path_finding_viz" target="_blank">
                     <img src={github} id="github"/>
                 </a>
                 
